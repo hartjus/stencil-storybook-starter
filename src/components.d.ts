@@ -46,6 +46,7 @@ declare namespace LocalJSX {
           * The middle name
          */
         "middle"?: string;
+        "onTapped"?: (event: CustomEvent<string>) => void;
     }
     interface IntrinsicElements {
         "my-component": MyComponent;

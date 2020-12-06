@@ -14,6 +14,13 @@
 | `middle` | `middle`  | The middle name | `string` | `undefined` |
 
 
+## Events
+
+| Event    | Description | Type                  |
+| -------- | ----------- | --------------------- |
+| `tapped` |             | `CustomEvent<string>` |
+
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

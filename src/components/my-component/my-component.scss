@@ -1,0 +1,14 @@
+
+$border-size: var(--border-size, 1px);
+$border-color: var(--border-color, red);
+
+:host {
+  display: block;
+
+  .test {
+    border-bottom: $border-size solid $border-color;
+  }
+
+}
+
+
